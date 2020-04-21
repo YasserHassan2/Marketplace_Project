@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E-Comerce_Project</string>
+    <string name="search_here">Search here</string>
+    <string name="deals">Deals</string>
+    <string name="mobiles">Mobiles</string>
+    <string name="accessories">Accessories</string>
+    <string name="clouthes">Clothes</string>
+    <string name="all_featured_location">All featured locations</string>
+    <string name="mostViewd_location">Most viewed</string>
+    <string name="view_all">View all</string>
+    <string name="categories">Categories</string>
+    <string name="all_featured_location_description">All Featured Locaiton descriptionAll Featured Locaiton description,All Featured Locaiton description,All Featured Locaiton descriptionAll Featured Locaiton descriptionAll Featured Locaiton descriptionAll Featured Locaiton description,All Featured Locaiton description</string>
+</resources>

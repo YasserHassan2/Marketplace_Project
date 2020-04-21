@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp"
+    android:layout_margin="5dp"
+    android:layout_height="150dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:id="@+id/image_mostviewd"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/modelwomen"
+            android:scaleType="centerCrop"
+            ></ImageView>
+        <TextView
+            android:id="@+id/title_mostviewd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_mostviewd"
+            android:text="McDonalds"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            ></TextView>
+        <TextView
+            android:id="@+id/desc_mostviewd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_mostviewd"
+            android:text="@string/all_featured_location_description"
+            android:textSize="14sp"
+            android:layout_below="@id/title_mostviewd"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColor="@color/darker_gray"
+            ></TextView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
